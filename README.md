@@ -1,4 +1,7 @@
-geth --datadir=./chaindata/ init ./genesis.json
+#Beta
+Note: Add chaindata folder in the same directory
+
+geth --targetgaslimit "994712388" --port 3000 --networkid 23422 --identity node1 --datadir=./chaindata/ --rpccorsdomain '*' --rpc --rpcaddr "localhost" --rpcport="8545"
 
 geth --datadir ./chaindata/
 
